@@ -4,7 +4,7 @@ app.controller('AutocompleteCtrl', function($timeout, $q, $log) {
 
     self.simulateQuery = false;
     self.isDisabled    = false;
-
+    //TEST 
     // list of `state` value/display objects
     self.states        = loadAll();
     self.querySearch   = querySearch;
